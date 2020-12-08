@@ -1,0 +1,265 @@
+body{
+    background-color: rgb(247,249,250);
+    scroll-behavior: smooth;
+}
+
+.twitter__left > img{
+      width: 50px;
+}
+
+.twitter__left{
+    position: fixed;
+    top: 0;
+}
+
+.twitter__left__container{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.twitter__left__container:hover{
+    background-color: rgba(223, 219, 219, 0.356);
+    border-radius: 99px;
+}
+
+.twitter__left_one{
+    margin-right: 20px;
+    font-size: 18px;
+    color: rgb(29,161,242);
+}
+
+.twitter__left_two{
+font-size: 18px;
+font-weight: 700;
+color: rgb(29,161,242);
+}
+
+.twitter__left_ones{
+    margin-right: 20px;
+    font-size: 18px;
+    color: rgb(14, 13, 13);
+}
+
+.twitter__left_twos{
+font-size: 18px;
+font-weight: 700;
+color: rgb(14, 13, 13);
+}
+
+.tweet__btn{
+    background-color: rgb(29,161,242);
+    border: none;
+    color: #fff;
+    padding: 10px 0px;
+    border-radius: 99px;
+    display: inline-block;
+    width: 100%;
+}
+
+.tweet__btn:hover{
+    background-color: rgb(16, 113, 173);
+}
+
+
+.twitter__center{
+  border: 1px solid rgba(128, 128, 128, 0.103);
+  background-color: #fff;
+  padding: 10px;
+}
+
+.twitter__center__first{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 0px 20px;
+}
+
+.twitter__center__first h6{
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.r-13gxpu9{
+    width: 20px;
+    color: rgb(16, 113, 173);
+}
+
+.twitter__center__second > img{
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   margin-right: 20px;
+}
+
+.twitter__center__second{
+    display: flex;
+    align-items: center;
+}
+
+.twitter__center__second h6{
+    color: gray;
+}
+
+.color__pohoto{
+    color: rgb(16, 113, 173);
+}
+
+.twitter__center__third{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.color__pohoto{
+  margin-right: 20px;
+}
+
+.twitter__card{
+    background-color: #fff;
+    padding: 20px;
+}
+
+.tweet__btnss{
+    background-color:rgb(142,208,249);
+    border: none;
+    color: #fff;
+    padding: 7px 25px;
+    display: inline-block;
+    width: 100%;
+    border-radius: 99px;
+}
+
+.input__one{
+    border: none;
+    border-bottom: 1px solid #000;
+}
+
+.twitter__center__fifth{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.twitter__center__fifth .fa{
+    cursor: pointer;
+}
+
+.twitter__center__fifth .fa:hover{
+    background-color: rgba(128, 128, 128, 0.384);
+    padding: 2px;
+    border-radius: 99px;
+}
+
+
+.twitter__right{
+    background-color: #fff;
+}
+
+.twitter__right__one{
+    background-color: rgb(235,238,240);
+    padding: 10px 20px;
+      border-radius: 99px !important;
+      margin-top: 10px;
+}
+
+.twitter__right__one > input{
+      border: none;
+      background: none;
+}
+
+
+.twitter__right__three{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.twitter__right__three__two > img{
+    width: 50px;
+    height: 50px;
+}
+
+.twitter__right__three__one > p{
+    font-size: 12px;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+
+.twitter__right__two{
+   margin-top: 20px;
+   background-color: rgb(247,249,250);
+   padding: 20px;
+}
+
+.twitter__right__two > h6{
+    font-weight: bold;
+}
+
+
+.twitter__right__three:hover{
+    background-color: rgba(114, 111, 111, 0.096);
+}
+
+.show__more{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.twitter__right__five__one > img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.twitter__right__five{
+    display: flex;
+}
+
+.twitter__right__five__two > h6{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.twitter__right__five__two > p{
+    font-size: 14px;
+}
+
+.twitter__right__five__three > .btn{
+    border: 1px solid rgb(16, 113, 173);
+    margin-left: 30px;
+    border-radius: 99px;
+    padding: 5px 20px;
+    color: rgb(16, 113, 173);
+    font-weight: bold;
+}
+
+.terms_of_service > a{
+    color: gray;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.terms_of_service > a:hover{
+    text-decoration: underline;
+}
+
+.twitter__right{
+    position: fixed;
+    top: 0;
+}
+
+
+@media only screen and (max-width: 425px) {
+    .twitter__left {
+     display: none;
+    }
+    .twitter__right{
+        position: static !important;
+    }
+  }
+
